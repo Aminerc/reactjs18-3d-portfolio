@@ -37,6 +37,9 @@ import {
   powerquery,
   talend,
   python,
+  excel,
+  projetrh,
+  projetsuivibudg,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -75,6 +78,10 @@ const technologies: TTechnology[] = [
     icon: excel,
   },
   {
+    name: "Power Query",
+    icon: powerquery,
+  },
+  {
     name: "PowerBi",
     icon: powerbi,
   },
@@ -85,10 +92,6 @@ const technologies: TTechnology[] = [
   {
     name: "SQL",
     icon: sql,
-  },
-  {
-    name: "Power Query",
-    icon: powerquery,
   },
   {
     name: "Talend",
@@ -153,7 +156,7 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: projetsuivibudg,
     sourceCodeLink: "lien",
   },
   {
@@ -175,7 +178,7 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: projetrh,
     sourceCodeLink: "lien",
   },
 ];

@@ -14,7 +14,6 @@ import powerquery from "./tech/powerquery.png";
 import powerbi from "./tech/powerbi.png";
 import sql from "./tech/sql.png";
 import talend from "./tech/talend.png";
-import github from "./github.png";
 import python from "./tech/python.png";
 
 //photos entreprises
@@ -24,7 +23,7 @@ import anef from "./company/anef.png";
 import morpheus from "./company/morpheus.png";
 
 //photos projets
-import carrent from "./carrent.png"; 
+import projetrh from "./projetrh.png"; 
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -47,7 +46,7 @@ export {
   datascientest,
   anef,
   morpheus,
-  carrent,
+  projetrh,
   jobit,
   tripguide,
 };
