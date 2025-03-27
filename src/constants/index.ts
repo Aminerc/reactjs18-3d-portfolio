@@ -26,12 +26,17 @@ import {
   docker,
   meta,
   anef,
-  tesla,
+  morpheus,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  powerbi,
+  sql,
+  powerquery,
+  talend,
+  python,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -67,27 +72,27 @@ const services: TService[] = [
 const technologies: TTechnology[] = [
   {
     name: "Excel",
-    icon: html,
+    icon: excel,
   },
   {
     name: "PowerBi",
-    icon: css,
+    icon: powerbi,
   },
   {
     name: "Python",
-    icon: javascript,
+    icon: python,
   },
   {
     name: "SQL",
-    icon: typescript,
+    icon: sql,
   },
   {
     name: "Power Query",
-    icon: reactjs,
+    icon: powerquery,
   },
   {
     name: "Talend",
-    icon: redux,
+    icon: talend,
   },
 ];
 
@@ -108,7 +113,7 @@ const experiences: TExperience[] = [
   {
     title: "Concepteur de fichiers standards / sur mésure Excel",
     companyName: "Morpheus Formation",
-    icon: tesla,
+    icon: morpheus,
     iconBg: "#E6DEDD",
     date: "Octobre 2024 - actuel",
     points: [
