@@ -75,7 +75,7 @@ export const config: TConfig = {
     },
     experience: {
       p: "Mon parcours profesionnel jusqu'à présent",
-      h2: "Expérience pro",
+      h2: "Parcours pro",
 
     },
   feedbacks: {

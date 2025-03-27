@@ -10,28 +10,9 @@ import type {
 import {
   mobile,
   backend,
-  creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
   anef,
   morpheus,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   powerbi,
   sql,
   powerquery,
@@ -40,6 +21,8 @@ import {
   excel,
   projetrh,
   projetsuivibudg,
+  datascientest,
+  iscod,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -104,7 +87,7 @@ const experiences: TExperience[] = [
     title: "Contrôleur de Gestion",
     companyName: "ANEF 03-63",
     icon: anef,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Janvier 2023 - acutel",
     points: [
       "Suivi budgétaires et corrections/analyse des écarts.",
@@ -122,6 +105,26 @@ const experiences: TExperience[] = [
     points: [
       "Création de fichiers standards / modèles de fichiers Excel no code en libre service ou dediés à la vente",
       "Création de fichiers sur mesure à la demande des clients : Finance, Associations, Suivi RH..."
+    ],
+  },
+  {
+    title: "Formation Data Analyst",
+    companyName: "Datascientest.com",
+    icon: datascientest,
+    iconBg: "#E6DEDD",
+    date: "Septembre 2024 - Avril 2024",
+    points: [
+      ".......",
+    ],
+  },
+  {
+    title: "Executive Bachelor : Comptabilité Finance et Gestion",
+    companyName: "ISCOD",
+    icon: iscod,
+    iconBg: "#E6DEDD",
+    date: "Septembre 2023 - Août 2024",
+    points: [
+      "...............",
     ],
   },
 ];

@@ -21,11 +21,11 @@ import solpedinn from "./company/solpedinn.png";
 import datascientest from "./company/datascientest.png";
 import anef from "./company/anef.png";
 import morpheus from "./company/morpheus.png";
+import iscod from "./company/iscod.png";
 
 //photos projets
 import projetrh from "./projetrh.png"; 
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import projetsuivibudg from "./projetsuivibudg.png";
 
 export {
   pdp,
@@ -44,9 +44,9 @@ export {
   python,
   solpedinn,
   datascientest,
+  iscod,
   anef,
   morpheus,
   projetrh,
-  jobit,
-  tripguide,
+  projetsuivibudg,
 };
