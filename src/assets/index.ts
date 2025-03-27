@@ -15,7 +15,7 @@ import powerbi from "./tech/powerbi.png";
 import sql from "./tech/sql.png";
 import talend from "./tech/talend.png";
 import github from "./github.png";
-import python from "./python.png";
+import python from "./tech/python.png";
 
 //photos entreprises
 import solpedinn from "./company/solpedinn.png";
