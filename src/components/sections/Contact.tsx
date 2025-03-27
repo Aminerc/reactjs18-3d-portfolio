@@ -38,8 +38,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        emailjsConfig.serviceId,
-        emailjsConfig.templateId,
+        "service_7jodci6",
+        'template_t4bclfb',
         {
           form_name: form.name,
           to_name: config.html.fullName,
@@ -52,7 +52,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Merci, votre demande a bien été envoyée.");
 
           setForm(INITIAL_STATE);
         },
@@ -60,7 +60,7 @@ const Contact = () => {
           setLoading(false);
 
           console.log(error);
-          alert("Something went wrong.");
+          alert("Impossible d'envoyer votre message, veuillez vérifier les informations saisies ou réessayez ultérieurement");
         }
       );
   };
@@ -102,10 +102,10 @@ const Contact = () => {
             );
           })}
           <button
-            type="submit"
+            type="Envoyer"
             className="bg-tertiary shadow-primary w-fit rounded-xl px-8 py-3 font-bold text-white shadow-md outline-none"
           >
-            {loading ? "Sending..." : "Send"}
+            {loading ? "En cours d'evnoi" : "Envoyer"}
           </button>
         </form>
       </motion.div>

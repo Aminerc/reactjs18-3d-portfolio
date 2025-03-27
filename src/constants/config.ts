@@ -40,55 +40,56 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Amine Ouardi Portfolio",
+    fullName: "Amine Ouardi",
+    email: "aminerc.business@outlook.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Amine Ouardi",
+    p: ["Data Analyst | Consultant EPM", "Vise à la performance"],
   },
   contact: {
-    p: "Get in touch",
-    h2: "Contact.",
+    p: "Une question ? Une proposition ?",
+    h2: "Contact",
     form: {
       name: {
-        span: "Your Name",
-        placeholder: "What's your name?",
+        span: "Nom Complet",
+        placeholder: "Arnaud Dupont...",
       },
-      email: { span: "Your Email", placeholder: "What's your email?" },
+      email: { span: "Email", placeholder: "email@exemple.com" },
       message: {
-        span: "Your Message",
-        placeholder: "What do you want to say?",
+        span: "Message",
+        placeholder: "Votre message ici...",
       },
     },
   },
   sections: {
     about: {
-      p: "Introduction",
-      h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      p: "Profil",
+      h2: "Introduction",
+      content: 
+      `Contrôleur de gestion, avec une forte appétence pour les données, pour l'analyse et la dataviz.
+      Mes conaissances et competences techniques dans differentes technologies liées aux données me permet de comprendre et d'apprendre avec aisance de nouveaux domaines tech.
+      Structuration, transformation, analyse et visualisation sont les 4 étapes de mon quotidien avec les données.
+      Actuellement, je me forme activement aux outils d'Enterprise Performance Management (EPM) pour renforcer mes compétences en gestion et optimisation des performances d'entreprise.`
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: "Mon parcours profesionnel jusqu'à présent",
+      h2: "Expérience pro",
+
     },
-    feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+  feedbacks: {
+    p: "Ceux qui m'ont fait confiance...",
+    h2: "Avis clients",
+    
     },
     works: {
-      p: "My work",
-      h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      p: "Mes réalisations",
+      h2: "Projets",
+      content: `Les réalisations suivantes sont issues de cas réels et problématiques rencontrées lors de mes expériences passés.
+      Les projets répondent à des problematiques métiers (manque de vision sur les finances, sur la masse salariale, sur le suivi du personnel...)
+      mais aussi montrent mon envie de moderniser et delivrer des outils performants visant à améilorer le quotidien de chaqun.`
+      ,
     },
   },
 };

@@ -25,7 +25,7 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  anef,
   tesla,
   shopify,
   carrent,
@@ -37,11 +37,11 @@ import {
 export const navLinks: TNavLink[] = [
   {
     id: "about",
-    title: "About",
+    title: "Profil",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience pro",
   },
   {
     id: "contact",
@@ -51,223 +51,127 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Contrôle de Gestion",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Data Analyst",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Consultant EPM",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
+    name: "Excel",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "PowerBi",
     icon: css,
   },
   {
-    name: "JavaScript",
+    name: "Python",
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "SQL",
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "Power Query",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Talend",
     icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Contrôleur de Gestion",
+    companyName: "ANEF 03-63",
+    icon: anef,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Janvier 2023 - acutel",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Suivi budgétaires et corrections/analyse des écarts.",
+      "Création de tableaux de bords, fichiers automatisés dediés à la gestion, suivi des finances et des ressources humaines.",
+      "Mise en plage et gestion de la base de donnée comptable sous SQL en intégrant les données sur Excel via PowerQuery et SQL.",
+      "Mise en place et structuration de la base de données du progiciel de gestion budgétaire DIR-IPS."
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "Concepteur de fichiers standards / sur mésure Excel",
+    companyName: "Morpheus Formation",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Octobre 2024 - actuel",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Création de fichiers standards / modèles de fichiers Excel no code en libre service ou dediés à la vente",
+      "Création de fichiers sur mesure à la demande des clients : Finance, Associations, Suivi RH..."
     ],
   },
 ];
-
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Amine a pu me construire un fichier Excel pour un suivi de l'activité d'un hopital à Ryiad. En quelques semaines c'était bouclé.",
+    name: "Hussam F.",
+    designation: "Finance Manager",
+    company: "King Abdullah Hospital Center",
+    image: "https://randomuser.me/api/portraits/men/7.jpg",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Suivi et gestion budgétaire",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      `Fichier Excel pour le suivi budgétaire et la prévision sur 1 ans en fonction de variables et API (inflation).
+      Les données comptables sont issues automatiquement via des requêtes Power Query, interrogeeant la base de données du progiciel comptable.`,
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "Excel",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "sql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Finance",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "lien",
   },
   {
-    name: "Job IT",
+    name: "Tableau de bord RH",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      `Tableau de bord de suivi de personnel et évolutions de la population au sein de l'ANEF 03-63.
+      Les données sont integrées via des requêtes Power Query, en lien avec des APIs liées au 'SaaS' de la structure`,
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "Excel",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "PowerQuery",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RH",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "lien",
   },
 ];
 
